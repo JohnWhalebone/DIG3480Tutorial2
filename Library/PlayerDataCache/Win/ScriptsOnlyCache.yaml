@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraScript
     - PlayerScript
+    - enemyscript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -55,6 +56,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -75,6 +80,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14396}
     - Class: 114
       Script: {instanceID: 15030}
+    - Class: 114
+      Script: {instanceID: 19890}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -188,7 +195,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: 859916f7bb5b41a90a0e912b16fe4c21
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -600,7 +607,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: enemyscript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/tiodi/Desktop/Tutorial2PlatformerTilemaps/Build/Tutorial2PlatformerTilemaps.exe
+  playerPath: C:/Users/tiodi/Desktop/DIG3480UnityStuff/Tutorial2PlatformerTilemaps/Challenge2Build/Tutorial2PlatformerTilemaps.exe
